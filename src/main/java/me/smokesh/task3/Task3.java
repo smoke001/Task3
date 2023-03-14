@@ -15,7 +15,6 @@ public final class Task3 extends JavaPlugin {
         Bukkit.getPluginCommand("pet").setExecutor((sender, a, b, args) -> {
             Player player = (Player) sender;
             ArmorStand armorStand = (ArmorStand)player.getWorld().spawnEntity(player.getLocation().add(0.8, 0.9, 0), EntityType.ARMOR_STAND);
-            armorStand.setVisible(true);
             armorStand.setHelmet(new ItemStack(Material.PUMPKIN));
             armorStand.setSmall(true);
             armorStand.setVisible(false);
