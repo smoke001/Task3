@@ -1,0 +1,9 @@
+name: Task3
+version: '${project.version}'
+main: me.smokesh.task3.Task3
+authors: [smokeed_]
+description: Питомцы
+
+commands:
+   pet:
+   pet2:
